@@ -4,13 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.js"></script>
-<script src="app.js"></script>
+  <form>
+    <input type="text" id="search" placeholder="Search Gif">
+    <button id="searchBtn">Find Gif</button>
+    <button id="removeBtn">Remove All Gifs</button>
+  </form>
+  <div class="gifContainer"></div>
+
+
+  <!-- Axios -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <!-- <script src="https://unpkg.com/axios/dist/axios.js"></script> -->
+ 
+  <script src="app.js"></script>
 </body>
 
 </html>
